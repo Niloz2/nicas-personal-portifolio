@@ -20,15 +20,15 @@ import {
   faTools,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import logo from './assets/computer-logo.jpg';  // Import logo
+import logo from "./assets/computer-logo.jpg"; // Import logo
 
 function App() {
   return (
-    <Router>
+    <Router basename="/nicas-personal-portifolio">
       <div className="App">
         <Navbar expand="lg" variant="dark" bg="dark" className="mb-5">
           <Container>
-            <Navbar.Brand href="/">
+            <NavLink to="/" className="navbar-brand">
               <img
                 src={logo}
                 alt="Computer Logo"
@@ -37,7 +37,7 @@ function App() {
                 className="d-inline-block align-top"
               />{" "}
               Nicas Lolela
-            </Navbar.Brand>
+            </NavLink>
             <Navbar.Toggle aria-controls="navbarNav" />
             <Navbar.Collapse id="navbarNav">
               <Nav className="ms-auto">
