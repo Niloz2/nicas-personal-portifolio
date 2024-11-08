@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ac45478.css",
-    "main.js": "/static/js/main.7016aea4.js",
-    "static/js/453.08e0b158.chunk.js": "/static/js/453.08e0b158.chunk.js",
-    "static/media/developer.jpg": "/static/media/developer.1606d7649d3e6d24c3ec.jpg",
-    "index.html": "/index.html",
-    "main.9ac45478.css.map": "/static/css/main.9ac45478.css.map",
-    "main.7016aea4.js.map": "/static/js/main.7016aea4.js.map",
-    "453.08e0b158.chunk.js.map": "/static/js/453.08e0b158.chunk.js.map"
+    "main.css": "/nicas-personal-portifolio/static/css/main.9ac45478.css",
+    "main.js": "/nicas-personal-portifolio/static/js/main.57b0a541.js",
+    "static/js/453.08e0b158.chunk.js": "/nicas-personal-portifolio/static/js/453.08e0b158.chunk.js",
+    "static/media/developer.jpg": "/nicas-personal-portifolio/static/media/developer.1606d7649d3e6d24c3ec.jpg",
+    "index.html": "/nicas-personal-portifolio/index.html",
+    "main.9ac45478.css.map": "/nicas-personal-portifolio/static/css/main.9ac45478.css.map",
+    "main.57b0a541.js.map": "/nicas-personal-portifolio/static/js/main.57b0a541.js.map",
+    "453.08e0b158.chunk.js.map": "/nicas-personal-portifolio/static/js/453.08e0b158.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ac45478.css",
-    "static/js/main.7016aea4.js"
+    "static/js/main.57b0a541.js"
   ]
 }
