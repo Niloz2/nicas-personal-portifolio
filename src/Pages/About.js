@@ -63,7 +63,7 @@ function About() {
                     {/* Download Resume Button */}
                     <div className="mt-4">
                         <a 
-                            href="/resume.pdf" // Ensure this path matches where your resume is stored
+                            href="/Nicas Lolela Resume.pdf" // Ensure this path matches where your resume is stored
                             className="btn btn-primary"
                             download // Enables download functionality
                         >
