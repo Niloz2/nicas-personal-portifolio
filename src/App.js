@@ -24,7 +24,7 @@ import logo from "./assets/computer-logo.jpg"; // Import logo
 
 function App() {
   return (
-    <Router baseName="nicas-personal-portifolio">
+    <Router basename="nicas-personal-portifolio">
       <div className="App">
         <Navbar expand="lg" variant="dark" bg="dark" className="mb-5">
           <Container>
