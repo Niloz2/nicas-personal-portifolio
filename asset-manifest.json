@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/nicas-personal-portifolio/static/css/main.176c75a6.css",
-    "main.js": "/nicas-personal-portifolio/static/js/main.53ab2d30.js",
+    "main.js": "/nicas-personal-portifolio/static/js/main.615301b4.js",
     "static/js/453.08e0b158.chunk.js": "/nicas-personal-portifolio/static/js/453.08e0b158.chunk.js",
     "static/media/computer-logo.jpg": "/nicas-personal-portifolio/static/media/computer-logo.8701e29b75509d6d518a.jpg",
     "static/media/developer.jpg": "/nicas-personal-portifolio/static/media/developer.1606d7649d3e6d24c3ec.jpg",
     "index.html": "/nicas-personal-portifolio/index.html",
     "main.176c75a6.css.map": "/nicas-personal-portifolio/static/css/main.176c75a6.css.map",
-    "main.53ab2d30.js.map": "/nicas-personal-portifolio/static/js/main.53ab2d30.js.map",
+    "main.615301b4.js.map": "/nicas-personal-portifolio/static/js/main.615301b4.js.map",
     "453.08e0b158.chunk.js.map": "/nicas-personal-portifolio/static/js/453.08e0b158.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.176c75a6.css",
-    "static/js/main.53ab2d30.js"
+    "static/js/main.615301b4.js"
   ]
 }
