@@ -70,6 +70,7 @@ function Home() {
             </p>
           </motion.div>
         </div>
+        <hr></hr>
 
         {/* Experience Section */}
         <div className="mb-5">
