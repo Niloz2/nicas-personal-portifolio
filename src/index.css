@@ -117,3 +117,19 @@ footer a:hover {
   background-color: #28a745; /* Darker green */
 }
 /* --- End of Project Card Styles --- */
+
+
+/* Start: Custom Cursor Dot */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 50%;
+  pointer-events: none; /* Prevent interfering with clicks */
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ensure it stays above other elements */
+}
+/* End: Custom Cursor Dot */

@@ -1,8 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { motion } from 'framer-motion';
 import { Card, Button } from 'react-bootstrap';
 
 function Projects() {
+    useEffect(() => {
+        const cursorDot = document.getElementById("cursor-dot");
+
+        const handleMouseMove = (event) => {
+            const { clientX, clientY } = event;
+            cursorDot.style.left = `${clientX}px`;
+            cursorDot.style.top = `${clientY}px`;
+        };
+
+        window.addEventListener("mousemove", handleMouseMove);
+
+        return () => {
+            window.removeEventListener("mousemove", handleMouseMove);
+        };
+    }, []);
+
     const projectList = [
         {
             title: 'Project A: Restaurant-Ecommerce-System',
@@ -25,6 +41,10 @@ function Projects() {
     ];
 
     return (
+        <>
+              {/* Cursor Dot */}
+              <div id="cursor-dot" className="cursor-dot"></div>
+ 
         <motion.div
             className="container my-5"
             initial={{ opacity: 0, x: -20 }}
@@ -70,6 +90,7 @@ function Projects() {
                 ))}
             </div>
         </motion.div>
+        </>
     );
 }
 
