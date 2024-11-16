@@ -48,7 +48,7 @@ function Home() {
             <h1 className="text-primary fw-bold text-center mt-3">
               Nicas Lolela{" "}
               <span className="text-muted">
-                (React Js, Spring Boot Developer & Laravel)
+                (Spring Boot, React Js & Laravel Developer)
               </span>
             </h1>
           </motion.div>
