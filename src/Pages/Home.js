@@ -105,7 +105,7 @@ function Home() {
               <h5 className="fw-bold">
                 Industrial Practical Training (University of Dodoma)
               </h5>
-              <p className="text-muted">2023</p>
+              <p className="text-muted">August,2023 - October,2023</p>
               <p>
                 Participated in training that based on software development
                 using Java in building web applications and Android
@@ -116,6 +116,143 @@ function Home() {
             </div>
           </div>
         </div>
+        <hr></hr>
+
+        {/* Education Section */}
+        <div className="mb-5 bg-light">
+          <h2 className="text-primary">Education</h2>
+          <div>
+            <h5 className="fw-bold">
+              Bachelor of Science in Business Information Systems
+            </h5>
+            <p className="text-muted">
+              University of Dodoma, Tanzania (2022 - 2024)
+            </p>
+            <p>
+              Gained in-depth knowledge of software development, Data Structures
+              and Algorithms, and system design.
+            </p>
+          </div>
+        </div>
+        <hr></hr>
+
+        {/* Testimonials Section */}
+        <div className="mb-5">
+          <h2 className="text-primary text-center">Testimonials</h2>
+          <div className="row g-4">
+            <div className="col-md-6">
+              <div className="card shadow-sm border-0">
+                <div className="card-body">
+                  <p className="card-text">
+                    <i className="fas fa-quote-left text-primary me-2"></i>
+                    "Nicas has exceptional skills in software development. His
+                    dedication and innovative ideas have greatly impacted
+                    different projects."
+                  </p>
+                  <div className="mt-3">
+                    <h6 className="fw-bold mb-0">Dr. Jabhera Matogoro</h6>
+                    <small className="text-muted">
+                      Lecturer at University of Dodoma
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card shadow-sm border-0">
+                <div className="card-body">
+                  <p className="card-text">
+                    <i className="fas fa-quote-left text-primary me-2"></i>
+                    "Working with Nicas was an absolute pleasure. He delivered
+                    high-quality solutions on time and exceeded expectations
+                    with high commitments."
+                  </p>
+                  <div className="mt-3">
+                    <h6 className="fw-bold mb-0">Eng. Michael Kilunga</h6>
+                    <small className="text-muted">
+                      CEO at Emic Soft Software Company
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr></hr>
+
+        {/* Certifications Section */}
+        {/* <div className="mb-5">
+          <h2 className="text-primary">Certifications</h2>
+          <div className="row">
+            <div className="col-md-4">
+              <div className="card shadow-sm">
+                <div className="card-body text-center">
+                  <h5 className="card-title fw-bold">
+                    Certified Java Developer
+                  </h5>
+                  <p className="card-text text-muted">Oracle</p>
+                  <a
+                    href="/path-to-java-certificate.pdf"
+                    className="btn btn-outline-primary"
+                    download
+                  >
+                    <i className="fas fa-download"></i> Download Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card shadow-sm">
+                <div className="card-body text-center">
+                  <h5 className="card-title fw-bold">React Developer</h5>
+                  <p className="card-text text-muted">Udemy</p>
+                  <a
+                    href="/path-to-react-certificate.pdf"
+                    className="btn btn-outline-primary"
+                    download
+                  >
+                    <i className="fas fa-download"></i> Download Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card shadow-sm">
+                <div className="card-body text-center">
+                  <h5 className="card-title fw-bold">
+                    Spring Boot & Microservices
+                  </h5>
+                  <p className="card-text text-muted">Coursera</p>
+                  <a
+                    href="/path-to-spring-certificate.pdf"
+                    className="btn btn-outline-primary"
+                    download
+                  >
+                    <i className="fas fa-download"></i> Download Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card shadow-sm">
+                <div className="card-body text-center">
+                  <h5 className="card-title fw-bold">
+                    Data Structures and Algorithms
+                  </h5>
+                  <p className="card-text text-muted">Coursera</p>
+                  <a
+                    href="/path-to-dsa-certificate.pdf"
+                    className="btn btn-outline-primary"
+                    download
+                  >
+                    <i className="fas fa-download"></i> Download Certificate
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> */}
       </motion.div>
     </>
   );

@@ -36,7 +36,7 @@ function Projects() {
             title: 'Project C: AnnounceVent',
             description: 'AnnounceVent is a platform designed to streamline and enhance the announcement process for businesses, organizations, and individuals. It allows users to create, manage, and distribute announcements to their target audiences effectively and efficiently.',
             githubLink: 'https://github.com/Niloz2/announcevent',
-            liveLink: '#',
+            liveLink: 'https://announcevent.com',
         },
     ];
 
