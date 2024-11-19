@@ -182,7 +182,7 @@ function Home() {
         <hr></hr>
 
         {/* Certifications Section */}
-        {/* <div className="mb-5">
+        <div className="mb-5">
           <h2 className="text-primary">Certifications</h2>
           <div className="row">
             <div className="col-md-4">
@@ -193,7 +193,7 @@ function Home() {
                   </h5>
                   <p className="card-text text-muted">Oracle</p>
                   <a
-                    href="/path-to-java-certificate.pdf"
+                    href="#"
                     className="btn btn-outline-primary"
                     download
                   >
@@ -208,7 +208,7 @@ function Home() {
                   <h5 className="card-title fw-bold">React Developer</h5>
                   <p className="card-text text-muted">Udemy</p>
                   <a
-                    href="/path-to-react-certificate.pdf"
+                    href="#"
                     className="btn btn-outline-primary"
                     download
                   >
@@ -223,9 +223,9 @@ function Home() {
                   <h5 className="card-title fw-bold">
                     Spring Boot & Microservices
                   </h5>
-                  <p className="card-text text-muted">Coursera</p>
+                  <p className="card-text text-muted">TutorialsPoint</p>
                   <a
-                    href="/path-to-spring-certificate.pdf"
+                    href="#"
                     className="btn btn-outline-primary"
                     download
                   >
@@ -242,7 +242,7 @@ function Home() {
                   </h5>
                   <p className="card-text text-muted">Coursera</p>
                   <a
-                    href="/path-to-dsa-certificate.pdf"
+                    href="#"
                     className="btn btn-outline-primary"
                     download
                   >
@@ -252,7 +252,7 @@ function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
       </motion.div>
     </>
   );
